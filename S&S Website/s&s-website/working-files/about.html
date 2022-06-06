@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JRM Safety and Security Consulting</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="shortcut icon" type="image/png" href="images/jrmlogo.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img id="logo" src="images/jrmlogo.png"  alt="Ideal Living Logo" width="30%"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><span class="nav-link"><a href="about.html">About Us</a></span></li>
+                        <li><span class="nav-link"><a href="cert.html">Services</a></span></li>
+                        <li><span class="nav-link"><a href="events.html">Events</a></span></li>
+                        <li><span class="nav-link"><a href="mailto: hr@securitydirectors.org">Career</a></span></li>
+                        <li><span class="nav-link"><a href="contact.html">Contact Us</a></span></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" alt="mobile menu icon" width="30px" height="30px" onclick="menutoggle()">
+            </div>
+            
+            <div class="parallax1">
+                <div class="heading">Who We Are</div>
+            </div>
+          
+            <section class="comphead">
+                <h1>Welcome to JRM Private Security.</h1>
+                <div class="two-col">
+                  <p>JRM's Consultants have consulted and directed safety and security services on some of the largest events in the nation. JRM's team is led by a team of retired law enforcement and current special event managers that have the background and experience to deliver quality and well thought out safety, security and planning to ensure a safe and enjoyable event.</p>
+                </div>
+            </section>
+                <h2 class="compheadh2">We’re really glad you’re here.</h2>
+              
+                <section>
+                    <div class="grid-flex">
+                      
+                      <div class="col col-text">
+                        <div class="aligner-item">
+                            <h1 class="item-header">JOHN MCKILLOP</h1>
+                            <h3 class="item-header">FOUNDER</h3>
+                            <p>John McKillop is the founder and president of S&S Labor Force Inc. dba JRM. John has a history in the law enforcement field as well as the private security sector that spans 40 years.</p>
+                            <br><a class="readmore" href="#popup1"><button class="butn">Read More</a></button>
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <h1 style="font-size: 45px;">JOHN MCKILLOP</h1>
+                                <h3 style="font-size: 30px;">FOUNDER</h3>
+                                <a class="close" href="#close">&times;</a>
+                                <div class="content">
+                                    <p style="color: #ffffff;">John McKillop is the founder and president of S&S Labor Force Inc. dba JRM. John has a history in the law enforcement field as well as the private security sector that spans 40 years.<br>
+                                        <br>John spent 20 years in law enforcement in the greater Los Angeles area while moonlighting in entertainment security. John’s law enforcement career included being a detective and supervising units such as vice/narcotics, gangs, robbery, homicide, and major crimes.<br>
+                                        <br>John ended his law enforcement career overseeing a multi-year-long serial murder investigation that landed him the honor of being selected one of the 10 ten law enforcement officers in 2002. John was selected by members of the International Chiefs of Police Association and was honored amongst his peers from all around the globe.<br>
+                                        <br>John’s career continued in the private security industry with a special emphasis on the entertainment industry. John built the company to what has been described as “the largest live broadcast security company in the U.S.”. While focused on providing good-paying jobs with benefits for employees, John expanded services to better serve the company’s clients. </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="grid-flex">
+                      
+                      <div class="col col-text">
+                        <div class="aligner-item">
+                            <h1 class="item-header">MICHAEL IZQUIERDO</h1>
+                            <h3 class="item-header">EXECUTIVE VICE PRESIDENT</h3>
+                            <p>Michael is a retired law enforcement officer from Southern California.  Over his career, Michael was a field training officer, and worked in detectives, special enforcement, and was a K9 officer. </p>
+                            <br><a class="readmore" href="#popup2"><button class="butn">Read More</a></button>
+                        <div id="popup2" class="overlay">
+                            <div class="popup">
+                                <h1 style="font-size: 45px;">MICHAEL IZQUIERDO</h1>
+                                <h3 style="font-size: 30px;">EXECUTIVE VICE PRESIDENT</h3>
+                                <a class="close" href="#close">&times;</a>
+                                <div class="content">
+                                    <p style="color: #ffffff;">Michael brings over 30 years of law enforcement and security experience to the table. He oversees all events nationwide for JRM. <br>
+                                        <br> Michael’s duties include security consulting and conducting a security assessment of an event and site.  With that, he creates staffing deployments with efficiency keeping the client’s best interest in mind all while maintaining a safe and secure environment for that event. <br>
+                                        <br> Michael also develops emergency action and evacuation plans for these events while working closely and collaborating with local and federal law enforcement agencies.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <div style="clear: both;">&nbsp;</div>
+
+            
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px"
+    }
+        }
+</script>
+<script>
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+          $('nav').addClass('black');
+        }else {
+          $('nav').removeClass('black');
+        }
+      })
+</script>
+
+    </body>
+    <div class="footer">
+        <div class="footer-container">
+            <section class="footer-nav">
+                <div class="footer-nav-list">
+                    <a class="footer-nav-link" href="index.html">Home</a>
+                    <a class="footer-nav-link" href="about.html">About Us</a>
+                    <a class="footer-nav-link" href="cert.html">Services</a>
+                    <a class="footer-nav-link" href="events.html">Events</a>
+                    <a class="footer-nav-link" href="mailto: hr@securitydirectors.org">Career</a>
+                    <a class="footer-nav-link" href="contact.html">Contact Us</a>
+                </div>
+            </section><hr style="width: 900px; margin: auto; border: 1px solid rgba(255, 255, 255, 0.5);">
+            <section class="footer-brands">
+                <div class="brand-icons">
+                    <a href="" target="_blank">Address: 714 W. Olympic Blvd Suite 601</a>
+                    <a href="tel: 213-748-1344" target="">Phone: 213-748-1344</a>
+                    <a href="mailto: events@securitydirectors.org" target="">Email: events@securitydirectors.org</a>
+                </div>
+            </section><hr style="width: 900px; margin: auto; border: 1px solid rgba(255, 255, 255, 0.5);">
+            <section class="footer-cr">
+                <p>2022 <span>&#169;</span> JRM Private Security, All Rights Reserved</p>
+            </section>
+        </div>
+    </div>
+</html>
